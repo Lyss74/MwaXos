@@ -1,0 +1,466 @@
+.PROD {background-color: yellow;}
+.PROD1 {background-color: blue;}
+.PROD2 {background-color: darkorange;}
+.PROD3 {background-color: red;}
+.NONE {display: none;}
+/*---- · IMPORT BOOSTRAP 4.0.6 SCSS CONFIG · ------*\
+\*---- · EASY ADDING COPONENTS · ------*/
+@import "../../src-front/sass/import";
+@import "../../src-front/sass/components/background";
+
+// ··· COMMAND LIST ··>
+/* color list reminders ··>
+// src-front/sass/vendor/boostrap406/scss/_variables.scss : line 46->55, map-merge 72->81
+$PRIMARY_COLOR_1: #eae9e9;
+$PRIMARY_COLOR_2: #050505;
+$PRIMARY_COLOR_3: yellow;
+$PRIMARY_COLOR_4: #373cf1;
+$PRIMARY_COLOR_5: #3eef38;
+$PRIMARY_COLOR_6: #931a1a;
+$PRIMARY_COLOR_7: #696cee;
+$PRIMARY_COLOR_8: #97f67b;
+$PRIMARY_COLOR_9: #343131;
+$PRIMARY_COLOR_10: #ff5900;
+*/
+
+/* I NEED color (link-text) :
+    ··> "color" @mixins generate the link text and animate :hover, :focus, juste choose 1 color in the up-list or use :
+        @include theme-color($PRIMARY_COLOR_2)
+
+// I NEED background-color :
+    ··> "background-color" @mixins generate the opaque color-theme, juste choose 1 color in the up-list or use $PRIMARY_COLOR_1 :
+        @include theme-bg-color($PRIMARY_COLOR_1);
+
+// I NEED border :
+    ··> "border" @mixins generate the border, juste choose 1 color in the up-list or use $PRIMARY_COLOR_9 :
+        @include theme-border-color($PRIMARY_COLOR_9, $brd-size:3.5px, $brd-type:solid)
+
+// I NEED BEAUTY LINEAR-GRADIENT :
+    ··> GENERATE THE LINEAR-GRADIENT, JUST USE 2 THEME-COLOR :
+    background-image linear-variant($PRIMARY_COLOR_9, $PRIMARY_COLOR_2) (opacity and position is default value)
+
+// I NEED BEAUTY BACKGROUND OPACITY :
+    ··> GENERATE THE BACKGROUND OPACITY, JUST USE 3 THEME-COLOR, OPACITY AND POSITION ··>
+    @include background-opa-variant($PRIMARY_COLOR_9, $PRIMARY_COLOR_7, $PRIMARY_COLOR_4) (opacity and position is default value)
+
+// I NEED display: block and center-block :
+    ··> @include center-block(); (center is default value)
+
+// I NEED display :
+    ··> @include display(); (flex is default value)
+
+// I NEED text-align :
+    ··> @include text-(); (center is default value)
+
+// I NEED dynamic-container :
+    ··> GENERATE THE CONTAINER VARIANT SIZE, AUTOMATICALLY CENTER
+        IF I NOT NEED MARGIN AN PADDING, SET LOW VALUE : .01%
+    @include container(10%-100%, 4% 0, 2% 4% 0);
+
+// I NEED margin, padding, special space :
+    ··> dynamic special space use rem-converter mixins just use one choice value spacing :
+        .btn {
+            margin: rem(20);
+            padding: rem(10);
+        }*/
+//* END OF REMINDERS *//
+
+// generic style |··>
+.hr-container {
+    hr {
+        border-color: $PRIMARY_COLOR_3;
+        border-width: 3.5px;
+    }
+}
+.text-typo-style {
+    color: black;
+    -webkit-text-fill-color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.title-typo-style {
+    @extend .text-typo-style;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.text-typo-style {
+    color: black;
+    -webkit-text-fill-color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.border-theme {
+    border:  2.5px solid lighten($PRIMARY_COLOR_3, 5%)!important;
+}
+.background-theme {
+    background-color: rgba(49, 46, 46, 0.73);
+}
+.bagd-fond-img {
+    @extend img;
+    background-image: url("../media/texture/fondPapierFroisseNoir.png");
+    background-color: rgba(0, 0, 0, 0.54);
+}
+.bagd-metal-img {
+    @extend img;
+    background-image: url("../media/texture/metalRayeGris.png");
+}
+.bagd-papier-froisse-img {
+    @extend img;
+    background-image: url("../media/texture/papierFroisse.png");
+    background-color: rgba(128, 128, 128, 0.69);
+}
+.bagd-footer-img {
+    background-image: url("../media/texture/metalRayeBleu.png");
+}
+
+// boutton style |··>
+._btn {
+    @extend .background-theme;
+    @extend .bagd-papier-froisse-img;
+    @extend .border-theme;
+    color: $PRIMARY_COLOR_2;
+    font-size: 1.3rem;
+    padding: .3rem .5rem;
+    &:hover {
+        background-color: $PRIMARY_COLOR_2;
+    }
+}
+
+.spec-backgrd {
+    background-color: rgba(128, 128, 128, 0.79);
+}
+._m-spec {
+    margin: 0;
+}
+// MwaXos-banniere ··>
+.team-bann {
+    width: 100%;
+    margin-top: .1%;
+}
+// HEADER |··>
+// MwaXos-navbar ··>
+.navbar {
+    background-color: $PRIMARY_COLOR_9;
+    form {
+        width: fit-content;
+        .form-control {
+            width: 60%;
+        }
+    }
+    .dropdown-toggle::after {
+        color: $PRIMARY_COLOR_3;
+    }
+}
+
+// MAIN |··>
+// MwaXos-presentation & social list··>
+.artiste-pre { //section
+    margin-top: -1%;
+    padding: 2% 6%;
+    .h1-title { //h1
+    }
+    .container-pre { //div
+        @include dynamic-flex(row, column, nowrap, $around);
+        .picture-size { //img
+            border-radius: 10% / 50%;
+            max-width: 30rem;
+            width: 100%;
+        }
+        .figcaption {
+        }
+        .social-container { //div
+            @extend .bagd-papier-froisse-img;
+            border-radius: 5%;
+            width: 100%;
+            margin-left: 5%;
+            .h2 {
+            }
+            .social-list { //ul
+                @include simple-flex(row, wrap, $around);
+                margin: auto;
+                .social-size { //li
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+
+// MwaXos-history & container list ··>
+.container-content {
+    @extend .bagd-fond-img;
+    width: 100%;
+    padding: 2%;
+    .h2 {
+        font-size: 1.5rem;
+    }
+    .li-size {
+        @include center-block();
+        padding: 5%;
+        .container-fig {
+            @include dynamic-flex(row, column, nowrap, $around);
+            .lg-pic-square, .lg-fig-size {
+                max-width: 37rem;
+                width: 100%;
+            }
+            .sm-text-descr {
+                @include center-block();
+                width: 60%;
+                padding: 1.5%;
+            }
+            .sm-pic-square, .sm-fig-size {
+                max-width: 27rem;
+                width: 100%;
+            }
+            .lg-text-descr {
+                @extend .sm-text-descr;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 220px) and (max-width: 1000px) {
+    .team-ban {
+        margin-top: 15%;
+    }
+
+    // MwaXos-presentation & social list··>
+    .artiste-pre { //section
+        .h1-title {
+            /*
+            @extend .title-typo-style;
+            */
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .container-pre { //div
+            .picture-size { //img
+                width: 100%;
+            }
+            .figcaption {
+            }
+            .social-container { //div
+                @include center-block();
+                width: 100%;
+                .h2 {
+                }
+                .social-list { //ul
+                    margin-top: -10%;
+                    margin-bottom: 9%;
+                    .social-size { //li
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    // MwaXos-history & container list ··>
+    .container-content {
+        width: 100%;
+        .li-size {
+            @include center-block();
+            .container-fig {
+                .lg-pic-square, .sm-text-descr,
+                .sm-pic-square, .lg-text-descr {
+                    width: 100%;
+                }
+                .order {
+                    list-style: square!important;
+                }
+                .m-resp {
+                    margin-bottom: 2%;
+                }
+            }
+        }
+    }
+
+/*    // scroll on top |··>
+    #haut {
+    }*/
+}
+
+// FOOTER |··>
+footer {
+    @extend .bagd-footer-img;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    margin-top: -1.3%;
+    padding: 2%;
+    .footer-txt {
+        @extend .background-theme;
+        color: $PRIMARY_COLOR_2;
+        font-size: 1.2rem;
+    }
+}
+
+// scroll on top |··>
+#haut {
+    @extend ._btn;
+    @extend .title-typo-style;
+    display: none;
+    position: fixed;
+    bottom: 3.5rem;
+    right: 1rem;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+}
+
+/*----- · BLOCK BUYLIST · -----*/
+.--sticky-sidebar {
+    @include center-block;
+    background-image: linear-variant($PRIMARY_COLOR_1, $PRIMARY_COLOR_9);
+    border: 3px solid lighten($PRIMARY_COLOR_2, 10%);
+    height: auto;
+    width: 95%;
+/*    margin: 5% 0;
+        h2 {
+        }
+        p {
+        }
+        article {
+        }*/
+    margin-top: -1%;
+    .--container-list {
+        width: 70%;
+        padding: 0;
+        margin: 2%;
+        li {
+            figure {
+                @include theme-border-color($PRIMARY_COLOR_9) ;
+/*                a {
+                    img {
+                    }
+                }
+                figcaption {
+                    h3 {
+                    }
+                    div {
+                        p {
+                        }
+                        .price {
+                        }
+                    }
+                }*/
+            }
+        }
+    }
+    aside {
+        border: 5px solid lighten($PRIMARY_COLOR_9, 25%);
+        border-radius: 2%;
+        margin-right: 2%;
+        .component {
+            background: linear-gradient(217deg, #7f7f7f7f, darken(#7f7f7f7f, 50%) 70.71%),
+            linear-gradient(127deg, lighten(#7f7f7f7f, 50%), #7f7f7f7f 70.71%);
+            /*            .empty-text {
+                        }
+                        .items {
+                        }
+                        .list {
+                        }*/
+        }
+        /*        .footer {
+                    .button {
+                    }
+                    .button, .empty-cart {
+                    }
+                }*/
+    }
+}
+@media only screen and (max-width: 1000px) {
+    /*----- · BLOCK BUYLIST · -----*/
+    .--sticky-sidebar {
+        @include center-block;
+        background-image: linear-variant($PRIMARY_COLOR_8, $PRIMARY_COLOR_1);
+        border: 3px solid lighten($PRIMARY_COLOR_2, 10%);
+        height: auto;
+/*        margin: 5% 0;
+        h2 {
+        }
+        p {
+        }*/
+
+        margin-top: -1.5%;
+
+        article {
+            flex-direction: column;
+        }
+        .--container-list {
+            width: 70%;
+            padding: 0;
+            margin: 2% auto;
+/*            li {
+                figure {
+                    a {
+                        img {
+                        }
+                    }
+                    figcaption {
+                        h3 {
+                        }
+                        div {
+                            p {
+                            }
+                            .price {
+                            }
+                        }
+                    }
+                }
+            }*/
+        }
+        aside { margin:  auto; width: 95%;
+            .component {
+                background: linear-gradient(217deg, #7f7f7f7f, darken(#7f7f7f7f, 50%) 70.71%),
+                linear-gradient(127deg, lighten(#7f7f7f7f, 50%), #7f7f7f7f 70.71%);
+/*                .empty-text {
+                }
+                .items {
+                }
+                .list {
+                }*/
+            }
+/*            .footer {
+                .button {
+                }
+                .button, .empty-cart {
+                }
+            }*/
+        }
+    }
+}
+
+// TEMP CSS PAGE CONSTRUCT
+.container-content-construct {
+    width: 100%;
+    padding: 1.5%;
+    .h2 {
+        font-size: 1.5rem;
+    }
+    .li-size {
+        @include center-block();
+        padding: 2%;
+        .container-fig {
+            @include dynamic-flex(column, column, nowrap, $around);
+            .lg-pic-square, .lg-fig-size {
+                width: 100%;
+            }
+            .sm-text-descr {
+                @include center-block();
+                width: 60%;
+                padding: 1.5%;
+            }
+            .sm-pic-square, .sm-fig-size {
+                width: 100%;
+            }
+            .lg-text-descr {
+                @extend .sm-text-descr;
+                width: 100%;
+            }
+
+        }
+    }
+}

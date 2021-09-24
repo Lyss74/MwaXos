@@ -5,9 +5,9 @@
 
 ## Développement du projet →
 	→ Url du repository : 			https://github.com/Lyss74/MwaXos#readme
-	→ Accueil du site : 			https://github.com/Lyss74/index.html
-	→ Descriptif du site : 			https://github.com/Lyss74/page/descriptif.html
-	→ Choix typographique du site : https://github.com/Lyss74/choiceFonts.html
+	→ Accueil du site : 			https://lyss74.github.io/MwaXos/
+	→ Descriptif du site : 			https://lyss74.github.io/MwaXos/page/descriptif.html
+	→ Choix typographique du site : https://lyss74.github.io/MwaXos/page/choiceFonts.html
 
 ## Durèe de concéption →
 	→ Premiers jet d'un site vitrine et référencement ( 2 mois )
@@ -25,7 +25,7 @@
 
 ## Projet en cours →
 	→ `Putain d'AmbolieS`
-	→ url : 						https://github.com/Lyss74/page/projets.html
+	→ url : 						https://lyss74.github.io/MwaXos/page/projets.html
 
 ## Page en cours de construction →
 # Contact
@@ -43,7 +43,7 @@
 # Mise en relation des réseaux sociaux
 
 # Texte biographique →
-	→ Ville natale
+	→ Ville natale,
 	→ Concert, victoire trophèes d'art et jeune artiste
 
 # Article de presse →
