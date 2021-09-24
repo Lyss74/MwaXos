@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'aAnotherTag';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAnotherTag.ttf') format('truetype');
+}
+.title-font {
+    font-family: 'aAnotherTag';
+    font-weight: normal;
+    font-size: 50px;
+    color: yellow;
+}
+.title-font00 {
+    font-family: 'aAnotherTag';
+    font-weight: normal;
+    font-size: 30px;
+    color: yellow;
+}
+/***************** ^ OK ^ *******************/
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAttackGraffiti'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font1 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+.title-font01 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    font-size: 20px;
+    color: yellow;
+}
+/***************** ^ OK ^ *******************/
+@font-face {
+    font-family: 'adrip';
+    font-style: normal;
+    font-weight: normal;
+    src: local('adrip'), url('../font/adrip.ttf') format('truetype');
+}
+.title-font2 {
+    font-family: 'adrip';
+    font-weight: normal;
+    font-size: 40px;
+    color: yellow;
+}
+.title-font02 {
+    font-family: 'adrip';
+    font-weight: normal;
+    font-size: 30px;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font3 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font4 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font5 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font6 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font7 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font8 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font9 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font10 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font11 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font12 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font13 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font14 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font15 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font16 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+@font-face {
+    font-family: 'aAttackGraffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+}
+.title-font17 {
+    font-family: 'aAttackGraffiti';
+    font-weight: normal;
+    color: yellow;
+}
+
+@font-face {
+    font-family: 'Bombing';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bombing'), url('../font/Bombing.ttf') format('truetype');
+}
+.title-font100 {
+    font-family: 'Bombing';
+    font-weight: normal;
+    font-size: 40px;
+    color: yellow;
+}
+
+
+
+
+.choice-typo {
+    margin-top: 2.5%;
+}
