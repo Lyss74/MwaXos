@@ -25,7 +25,7 @@
 
 ## Projet en cours →
 	→ `Putain d'AmbolieS`
-	→ url : 						https://lyss74.github.io/MwaXos/page/projets.html
+	→ url :	https://lyss74.github.io/MwaXos/page/projets.html
 
 ## Page en cours de construction →
 # Contact
