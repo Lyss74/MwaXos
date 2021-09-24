@@ -313,10 +313,11 @@ footer {
 /*----- · BLOCK BUYLIST · -----*/
 .--sticky-sidebar {
     @include center-block;
-    background-image: linear-variant($PRIMARY_COLOR_1, $PRIMARY_COLOR_9);
-    border: 3px solid lighten($PRIMARY_COLOR_2, 10%);
+    @extend .border-theme;
+/*    background-image: linear-variant($PRIMARY_COLOR_1, $PRIMARY_COLOR_9);
+    border: 3px solid lighten($PRIMARY_COLOR_2, 10%);*/
     height: auto;
-    width: 95%;
+    width: 100%;
 /*    margin: 5% 0;
         h2 {
         }

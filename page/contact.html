@@ -102,36 +102,48 @@
                  alt="...">
         </header>
         <main>
-            <section class="container-content-construct --sticky-sidebar d-flex flex-column">
+            <section class="container-content d-flex flex-column">
                 <h1 class="h1 title-typo-style">
                     MwaXos · Moi-Même
                 </h1>
                 <ul>
                     <li class="bagd-metal-img li-size border-theme">
-                        <h2 class="title-typo-style">
-                            MaXos le phénomène officiel
-                        </h2>
-                        <div class="container-fig">
-                            <figure>
-                                <img src="../public/assets/media/img/bin/travaux.jpg"
-                                     class="ml-0 picture figure-img img-fluid rounded sm-pic-square border-theme"
-                                     title="..."
-                                     alt="...">
-                                <figcaption class="ml-0 mt-4 sm-fig-size m-resp">
-                                    <cite class="title-typo-style border-theme background-theme">
-                                        MaXos · MOI-MÊME | Official WebSite
-                                    </cite>
-                                </figcaption>
-                            </figure>
-                            <p class="mt-4 lg-text-descr border-theme background-theme">
-                                <strong>
-                                    "Bienvenue sur le site officiel de Maxime Potez, MwaXos pour les intimes.
-                                </strong> <br>
-                                Retrouvez tous ces titres, albums, medley et même ces collaborations avec d’autres groupes <br>
-                                Vous pouvez contacter notre artiste et demandez une collaboration, <br>
-                                dédicaces sur divers articles disponibles en vente ici."<br>
-                            </p>
-                        </div>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">
+                                    Votre email
+                                </label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">
+                                    Votre demande
+                                </label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>
+                                        Collaboration
+                                    </option>
+                                    <option>
+                                        Participation
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">
+                                    Votre message
+                                </label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit"
+                                    title="..."
+                                    class="_btn mt-1">
+                                <a class="nav-link title-typo-style m-0 p-0">
+<!--                                   title="..."
+                                   href="..page/ControlForm">-->
+                                    Envoyer
+                                </a>
+                            </button>
+                        </form>
                     </li>
                 </ul>
             </section>
