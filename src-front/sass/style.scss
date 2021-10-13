@@ -6,14 +6,16 @@
 /*---- · IMPORT BOOSTRAP 4.0.6 SCSS CONFIG · ------*\
 \*---- · EASY ADDING COPONENTS · ------*/
 @import "../../src-front/sass/import";
+/*
 @import "../../src-front/sass/components/background";
+*/
 
 // ··· COMMAND LIST ··>
 /* color list reminders ··>
-// src-front/sass/vendor/boostrap406/scss/_variables.scss : line 46->55, map-merge 72->81
+// src-front/sass/vendor/boostrap406/scss/_variables.scss : line 46->55, map-merge 72->81*/
 $PRIMARY_COLOR_1: #eae9e9;
 $PRIMARY_COLOR_2: #050505;
-$PRIMARY_COLOR_3: yellow;
+$PRIMARY_COLOR_3: rgba(255, 255, 0, 0.62);
 $PRIMARY_COLOR_4: #373cf1;
 $PRIMARY_COLOR_5: #3eef38;
 $PRIMARY_COLOR_6: #931a1a;
@@ -21,7 +23,7 @@ $PRIMARY_COLOR_7: #696cee;
 $PRIMARY_COLOR_8: #97f67b;
 $PRIMARY_COLOR_9: #343131;
 $PRIMARY_COLOR_10: #ff5900;
-*/
+
 
 /* I NEED color (link-text) :
     ··> "color" @mixins generate the link text and animate :hover, :focus, juste choose 1 color in the up-list or use :
@@ -92,8 +94,13 @@ $PRIMARY_COLOR_10: #ff5900;
     border:  2.5px solid lighten($PRIMARY_COLOR_3, 5%)!important;
 }
 .background-theme {
-    background-color: rgba(49, 46, 46, 0.73);
+    @extend .border-theme;
+    background-color: rgba(49, 46, 46, 0.80);
 }
+.background-txt-theme {
+    @extend .border-theme;
+     background-color: rgba(0, 0, 0, 0.79);
+ }
 .bagd-fond-img {
     @extend img;
     background-image: url("../media/texture/fondPapierFroisseNoir.png");
@@ -197,14 +204,17 @@ $PRIMARY_COLOR_10: #ff5900;
         @include center-block();
         padding: 5%;
         .container-fig {
-            @include dynamic-flex(row, column, nowrap, $around);
+            /*
+            background-color: lighten($PRIMARY_COLOR_2, 70%);
+            */
+            @include dynamic-flex(column, column, nowrap, $around);
             .lg-pic-square, .lg-fig-size {
                 max-width: 37rem;
                 width: 100%;
             }
             .sm-text-descr {
                 @include center-block();
-                width: 60%;
+                width: 50%;
                 padding: 1.5%;
             }
             .sm-pic-square, .sm-fig-size {
@@ -213,7 +223,7 @@ $PRIMARY_COLOR_10: #ff5900;
             }
             .lg-text-descr {
                 @extend .sm-text-descr;
-                width: 100%;
+                width: 50%;
             }
         }
     }
@@ -292,7 +302,6 @@ footer {
     align-items: center;
     width: 100%;
     height: 10rem;
-    margin-top: -1.3%;
     padding: 2%;
     .footer-txt {
         @extend .background-theme;
@@ -302,7 +311,9 @@ footer {
 }
 
 // scroll on top |··>
-#haut {
+#upHome, #upShop
+    /*, #upChoice, #upContact, #upDescr, #upListen, #upPlaylist, #upProjects*/
+{
     @extend ._btn;
     @extend .title-typo-style;
     display: none;
@@ -314,129 +325,7 @@ footer {
     cursor: pointer;
 }
 
-/*----- · BLOCK BUYLIST · -----*/
-.--sticky-sidebar {
-    @include center-block;
-    @extend .border-theme;
-/*    background-image: linear-variant($PRIMARY_COLOR_1, $PRIMARY_COLOR_9);
-    border: 3px solid lighten($PRIMARY_COLOR_2, 10%);*/
-    height: auto;
-    width: 100%;
-/*    margin: 5% 0;
-        h2 {
-        }
-        p {
-        }
-        article {
-        }*/
-    margin-top: -1%;
-    .--container-list {
-        width: 70%;
-        padding: 0;
-        margin: 2%;
-        li {
-            figure {
-                @include theme-border-color($PRIMARY_COLOR_9) ;
-/*                a {
-                    img {
-                    }
-                }
-                figcaption {
-                    h3 {
-                    }
-                    div {
-                        p {
-                        }
-                        .price {
-                        }
-                    }
-                }*/
-            }
-        }
-    }
-    aside {
-        border: 5px solid lighten($PRIMARY_COLOR_9, 25%);
-        border-radius: 2%;
-        margin-right: 2%;
-        .component {
-            background: linear-gradient(217deg, #7f7f7f7f, darken(#7f7f7f7f, 50%) 70.71%),
-            linear-gradient(127deg, lighten(#7f7f7f7f, 50%), #7f7f7f7f 70.71%);
-            /*            .empty-text {
-                        }
-                        .items {
-                        }
-                        .list {
-                        }*/
-        }
-        /*        .footer {
-                    .button {
-                    }
-                    .button, .empty-cart {
-                    }
-                }*/
-    }
-}
-@media only screen and (max-width: 1000px) {
-    /*----- · BLOCK BUYLIST · -----*/
-    .--sticky-sidebar {
-        @include center-block;
-        background-image: linear-variant($PRIMARY_COLOR_8, $PRIMARY_COLOR_1);
-        border: 3px solid lighten($PRIMARY_COLOR_2, 10%);
-        height: auto;
-/*        margin: 5% 0;
-        h2 {
-        }
-        p {
-        }*/
 
-        margin-top: -1.5%;
-
-        article {
-            flex-direction: column;
-        }
-        .--container-list {
-            width: 70%;
-            padding: 0;
-            margin: 2% auto;
-/*            li {
-                figure {
-                    a {
-                        img {
-                        }
-                    }
-                    figcaption {
-                        h3 {
-                        }
-                        div {
-                            p {
-                            }
-                            .price {
-                            }
-                        }
-                    }
-                }
-            }*/
-        }
-        aside { margin:  auto; width: 95%;
-            .component {
-                background: linear-gradient(217deg, #7f7f7f7f, darken(#7f7f7f7f, 50%) 70.71%),
-                linear-gradient(127deg, lighten(#7f7f7f7f, 50%), #7f7f7f7f 70.71%);
-/*                .empty-text {
-                }
-                .items {
-                }
-                .list {
-                }*/
-            }
-/*            .footer {
-                .button {
-                }
-                .button, .empty-cart {
-                }
-            }*/
-        }
-    }
-}
 
 // TEMP CSS PAGE CONSTRUCT
 .container-content-construct {
@@ -465,7 +354,6 @@ footer {
                 @extend .sm-text-descr;
                 width: 100%;
             }
-
         }
     }
 }
