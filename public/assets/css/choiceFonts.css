@@ -4,234 +4,99 @@
     font-weight: normal;
     src: local('aAnotherTag'), url('../font/aAnotherTag.ttf') format('truetype');
 }
-.title-font {
+.title-font1 {
     font-family: 'aAnotherTag';
     font-weight: normal;
-    font-size: 50px;
-    color: yellow;
+    font-size: 24px;
+    color: whitesmoke;
 }
-.title-font00 {
+.title-font1-1 {
     font-family: 'aAnotherTag';
     font-weight: normal;
-    font-size: 30px;
-    color: yellow;
+    font-size: 18px;
+    color: whitesmoke;
 }
 /***************** ^ OK ^ *******************/
+
 @font-face {
     font-family: 'aAttackGraffiti';
     font-style: normal;
     font-weight: normal;
     src: local('aAttackGraffiti'), url('../font/aAttackGraffiti.ttf') format('truetype');
 }
-.title-font1 {
+.title-font2 {
     font-family: 'aAttackGraffiti';
     font-weight: normal;
-    color: yellow;
+    font-size: 18px;
+    color: whitesmoke;
 }
-.title-font01 {
+.title-font2-2 {
     font-family: 'aAttackGraffiti';
     font-weight: normal;
-    font-size: 20px;
-    color: yellow;
+    font-size: 14px;
+    color: whitesmoke;
 }
 /***************** ^ OK ^ *******************/
+
 @font-face {
     font-family: 'adrip';
     font-style: normal;
     font-weight: normal;
     src: local('adrip'), url('../font/adrip.ttf') format('truetype');
 }
-.title-font2 {
-    font-family: 'adrip';
-    font-weight: normal;
-    font-size: 40px;
-    color: yellow;
-}
-.title-font02 {
-    font-family: 'adrip';
-    font-weight: normal;
-    font-size: 30px;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
 .title-font3 {
-    font-family: 'aAttackGraffiti';
+    font-family: 'adrip';
     font-weight: normal;
-    color: yellow;
+    font-size: 24px;
+    color: whitesmoke;
 }
+.title-font3-3{
+    font-family: 'adrip';
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
 
 @font-face {
-    font-family: 'aAttackGraffiti';
+    font-family: 'BlankRiver';
     font-style: normal;
     font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+    src: local('BlankRiver'), url('../font/BlankRiver.ttf') format('truetype');
 }
 .title-font4 {
-    font-family: 'aAttackGraffiti';
+    font-family: 'BlankRiver';
     font-weight: normal;
-    color: yellow;
+    font-size: 24px;
+    color: whitesmoke;
 }
+.title-font4-4 {
+    font-family: 'BlankRiver';
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
 
 @font-face {
-    font-family: 'aAttackGraffiti';
+    font-family: 'BombfrontTrial';
     font-style: normal;
     font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+    src: local('BombfrontTrial'), url('../font/BombfrontTrial.ttf') format('truetype');
 }
 .title-font5 {
-    font-family: 'aAttackGraffiti';
+    font-family: 'BombfrontTrial';
     font-weight: normal;
-    color: yellow;
+    font-size: 20px;
+    color: whitesmoke;
 }
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
+.title-font5-5 {
+    font-family: 'BombfrontTrial';
     font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
+    font-size: 18px;
+    color: whitesmoke;
 }
-.title-font6 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font7 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font8 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font9 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font10 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font11 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font12 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font13 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font14 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font15 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font16 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
-@font-face {
-    font-family: 'aAttackGraffiti';
-    font-style: normal;
-    font-weight: normal;
-    src: local('aAnotherTag'), url('../font/aAttackGraffiti.ttf') format('truetype');
-}
-.title-font17 {
-    font-family: 'aAttackGraffiti';
-    font-weight: normal;
-    color: yellow;
-}
+/***************** ^  ^ *******************/
 
 @font-face {
     font-family: 'Bombing';
@@ -239,16 +104,297 @@
     font-weight: normal;
     src: local('Bombing'), url('../font/Bombing.ttf') format('truetype');
 }
-.title-font100 {
+.title-font6 {
     font-family: 'Bombing';
     font-weight: normal;
-    font-size: 40px;
-    color: yellow;
+    font-size: 24px;
+    color: whitesmoke;
 }
-
-
-
-
-.choice-typo {
-    margin-top: 2.5%;
+.title-font6-6 {
+    font-family: 'Bombing';
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
 }
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'BubbleFont';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BubbleFont'), url('../font/BubbleFont.ttf') format('truetype');
+}
+.title-font7 {
+    font-family: 'BubbleFont';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.title-font7-7 {
+    font-family: 'BubbleFont';
+    font-weight: normal;
+    font-size: 16px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'DocalismeOnStreet';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DocalismeOnStreet'), url('../font/DocalismeOnStreet.ttf') format('truetype');
+}
+.title-font8 {
+    font-family: 'DocalismeOnStreet';
+    font-weight: normal;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.title-font8-8 {
+    font-family: 'DocalismeOnStreet';
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'graffontDrop';
+    font-style: normal;
+    font-weight: normal;
+    src: local('graffontDrop'), url('../font/graffontDrop.ttf') format('truetype');
+}
+.title-font9 {
+    font-family: 'graffontDrop';
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.title-font9-9 {
+    font-family: 'graffontDrop';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'graffontiAtomicBomb';
+    font-style: normal;
+    font-weight: normal;
+    src: local('graffontiAtomicBomb'), url('../font/graffontiAtomicBomb.ttf') format('truetype');
+}
+.title-font10 {
+    font-family: 'graffontiAtomicBomb';
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.title-font10-10 {
+    font-family: 'graffontiAtomicBomb';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'graffontiGradientFill';
+    font-style: normal;
+    font-weight: normal;
+    src: local('graffontiGradientFill'), url('../font/graffontiGradientFill.ttf') format('truetype');
+}
+.title-font11 {
+    font-family: 'graffontiGradientFill';
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.title-font11-11 {
+    font-family: 'graffontiGradientFill';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'KortzDemo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('KortzDemo'), url('../font/KortzDemo.ttf') format('truetype');
+}
+.title-font12 {
+    font-family: 'KortzDemo';
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.title-font12-12 {
+    font-family: 'KortzDemo';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'Mostwasted';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mostwasted'), url('../font/Mostwasted.ttf') format('truetype');
+}
+.title-font14 {
+    font-family: 'Mostwasted';
+    font-weight: normal;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.title-font14-14 {
+    font-family: 'Mostwasted';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'NextCustom';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NextCustom'), url('../font/NextCustom.ttf') format('truetype');
+}
+.title-font15 {
+    font-family: 'NextCustom';
+    font-weight: normal;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.title-font15-15 {
+    font-family: 'NextCustom';
+    font-weight: normal;
+    font-size: 12px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+
+@font-face {
+    font-family: 'Smasher312Custom';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Smasher312Custom'), url('../font/Smasher312Custom.ttf') format('truetype');
+}
+.title-font17 {
+    font-family: 'Smasher312Custom';
+    font-weight: normal;
+    font-size: 10px;
+    color: whitesmoke;
+}
+.title-font17-17 {
+    font-family: 'Smasher312Custom';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'Street Wars Demo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Street Wars Demo'), url('../font/Street Wars Demo.ttf') format('truetype');
+}
+.title-font18 {
+    font-family: 'Street Wars Demo';
+    font-weight: normal;
+    font-size: 26px;
+    color: whitesmoke;
+}
+.title-font18-18 {
+    font-family: 'Street Wars Demo';
+    font-weight: normal;
+    font-size: 22px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'Streetlife';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Streetlife'), url('../font/Streetlife.ttf') format('truetype');
+}
+.title-font19 {
+    font-family: 'Streetlife';
+    font-weight: normal;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.title-font19-19 {
+    font-family: 'Streetlife';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'The GunslingeDemo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('The GunslingeDemo'), url('../font/The GunslingeDemo.ttf') format('truetype');
+}
+.title-font20 {
+    font-family: 'The GunslingeDemo';
+    font-weight: normal;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.title-font20-20 {
+    font-family: 'The GunslingeDemo';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'Urban Heroes';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Urban Heroes'), url('../font/Urban Heroes.ttf') format('truetype');
+}
+.title-font21 {
+    font-family: 'Urban Heroes';
+    font-weight: normal;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.title-font21-21 {
+    font-family: 'Urban Heroes';
+    font-weight: normal;
+    font-size: 14px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
+
+@font-face {
+    font-family: 'Streetlife';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Streetlife'), url('../font/Streetlife.ttf') format('truetype');
+}
+.title-font22 {
+    font-family: 'Streetlife';
+    font-weight: normal;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.title-font22-22 {
+    font-family: 'Streetlife';
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
+}
+/***************** ^  ^ *******************/
