@@ -1,7 +1,7 @@
 /* SCROLL HOME PAGE START */
 window.onscroll = function() {scrollFunctionHome()};
 function scrollFunctionHome() {
-    if (document.body.scrollTop > 7660 || document.documentElement.scrollTop > 7660)
+    if (document.body.scrollTop > 7658 || document.documentElement.scrollTop > 7658)
     {
         document.getElementById("upHome").style.display = "block";
     }
