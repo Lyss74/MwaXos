@@ -311,8 +311,10 @@ footer {
 }
 
 // scroll on top |··>
-#upHome, #upShop
-    /*, #upChoice, #upContact, #upDescr, #upListen, #upPlaylist, #upProjects*/
+#upHome
+/*
+, #upShop, #upChoice, #upContact, #upDescr, #upListen, #upPlaylist, #upProjects
+*/
 {
     @extend ._btn;
     @extend .title-typo-style;
@@ -325,7 +327,10 @@ footer {
     cursor: pointer;
 }
 
-
+// PAGE
+.card {
+    margin-bottom: 2%;
+}
 
 // TEMP CSS PAGE CONSTRUCT
 .container-content-construct {
